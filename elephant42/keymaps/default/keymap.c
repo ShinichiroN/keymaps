@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //`-------+-------+-------+-------+-------+-------|                                    |-------+-------+-------+-------+-------+-------'
               KC_Z  , KC_X  , KC_C  , KC_V  , KC_B  ,                                      KC_N  , KC_M  ,KC_COMM,KC_DOT ,KC_SLSH,
   //        `-------+-------+-------+-------+-------+-------+-------.    ,-------+-------+-------+-------+-------+-------+-------'
-                                       CALC, KC_BSPC, KC_SPC,KC_LALT,     KC_DEL ,CURSOL, KC_LCMD ,KC_ENT
+                                       CALC, KC_BSPC, KC_SPC,KC_LALT,     KC_LCTRL,CURSOL, KC_LCMD ,KC_ENT
   //                                `-------+-------+-------+-------'    `-------+-------+-------+-------'
   ),
 
@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|-------+-------+-------+-------+-------+-------|                                    |-------+-------+-------+-------+-------+-------|
      RGB_VAI,KC_TILD,KC_HOME,KC_PGDN ,KC_END,KC_LPRN,                                     KC_LEFT,KC_DOWN, KC_UP ,KC_RGHT,KC_PIPE,KC_F12 ,
   //`-------+-------+-------+-------+-------+-------|                                    |-------+-------+-------+-------+-------+-------'
-             KC_GRV, KC_BRMU,RGB_TOG,RGB_MOD,RGB_VAD,                                     KC_HOME,KC_PGDN,KC_PGUP, KC_END ,KC_END,
+             KC_GRV, KC_BRMU,RGB_TOG,RGB_MOD,RGB_VAD,                                     KC_HOME,KC_PGDN,KC_PGUP,KC_BSLS ,KC_END,
   //        `-------+-------+-------+-------+-------+-------+-------.    ,-------+-------+-------+-------+-------+-------+-------'
                                      KC_LALT,KC_LCMD,KC_RSPC,KC_LSFT,     KC_DEL ,KC_RSPC,KC_ENT ,KC_BSPC
   //                                `-------+-------+-------+-------'    `-------+-------+-------+-------'
